@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário - HTML com JS</title>
+    <link rel="stylesheet" href="./exercicio_html_js.css" />
+</head>
+<body>
+    <div class="container">
+        <h1>Formulário</h1>
+        <h2>Números</h2>
+        <form id="form-numeros">
+            <input type="number" id="numero-A" required placeholder="Campo A:" />
+            <input type="number" id="numero-B" required placeholder="Campo B:" />
+            <p class="error-message">
+                O segundo número deve ser maior que o primeiro
+            </p>
+            <button id="btn-validar" type="submit">Validar</button>
+        </form>
+        <p class="sucess-message">
+        </p>
+    </div>
+    <script src="./exercicio_html_js.js"></script>
+</body>
+</html>
